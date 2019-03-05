@@ -204,47 +204,44 @@
 		<main id="main" class="main" role="main">	
 		<article role="article" class="b-data"> 			
 			<div class="b-data__content" id="content">
+<script src="https://code.highcharts.com/highcharts.js"></script>
 
 <script type="text/javascript">document.getElementsByTagName('article')[0].classList.add('b-data--no-img');</script>
 <style>article li{background:0 0!important;margin:0!important;padding:0!important}article ol,article ul{list-style:initial!important;font-size:medium!important;line-height:1.5!important}article hr{max-width:none!important}</style>
 <div class="row-main row-main--article">
 <h1 class="b-data__title b-data__title--sm">
-Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze
+Aktivita europoslanců
 </h1>
 </div>
 <div class="row-main row-main--narrow">
-<p class="text-bold text-lg">Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat.</p>
+<p class="text-bold text-lg"></p>
 </div>
 
 <!--[[ZPRAVY_SNOWFALL_METADATA:]]-->
 <div class="row-main row-main--narrow">
-<figure class="b-detail__img"><img src="https://interaktivni.rozhlas.cz/brexit/media/cover.jpg" width="100%" /><figcaption>Foto <a href='#'>ČTK</a></figcaption></figure>
 
-<div class="b-inline b-inline--left"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
-    <p>
-    <b>KAREL HYNEK MÁCHA</b>
-    </p><p>
-    Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-    </p>
-</div></div></div></div>
 
-<p>Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve „špičce“ okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na <a href="https://cs.wikipedia.org/wiki/Hektar">hektar</a> (Václavské náměstí má rozlohu asi 4 hektary).</p>
-<p>Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 osob na hektar.</p>
-<p>Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský <a href="http://www.iprpraha.cz/">Institut plánování a rozvoje</a>.</p>
-</div><div class="row-main row-main--article"><i>Pokud vás zajímá, kolik lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte posuvníkem nahoře.</i></div><div class="row-main row-main--narrow">
+</div><div class="row-main row-main--article"><div id="graf1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+</div><div class="row-main row-main--narrow">
 
-<h2 id="data-na-prodej">Data na prodej</h2>
-<div class="b-inline b-inline--right"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
-    <p>
-    <b>KAREL HYNEK MÁCHA</b>
-    </p><p>
-    Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-    </p>
-</div></div></div></div>
-
-<p>I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.</p>
-<p>Mobilní operátor má <a href="https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3">zákonnou povinnost</a> takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.</p>
-<p>Operátoři ale obdobné informace mohou anonymizovat (tedy zbavit identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.</p>
+<blockquote>
+<p>Hlasování probíhá obvykle kolem poledne a ve velmi rychlém sledu: poslanci mnohdy hlasují o stovkách pozměňovacích návrhů.</p>
+</blockquote>
+<blockquote>
+<p>Během hlasování o parlamentní zprávě nebo o usnesení mohou poslanci znění příslušného dokumentu měnit prostřednictvím pozměňovacích návrhů. Ty mohou mít za cíl vypustit, přeformulovat, nahradit či rozšířit část projednávaného dokumentu. Poslanci nejprve hlasují o každém pozměňovacím návrhu zvlášť a teprve poté o celkovém dokumentu v takto pozměněném znění.</p>
+</blockquote>
+<blockquote>
+<p>Nejčastěji poslanci hlasují zvednutím ruky, přičemž úkolem předsedy zasedání je konstatovat, zda většina byla pro, nebo proti. V případě nejistoty požádá předseda o elektronické hlasování, které poskytne přesnější výsledek. Pokud o to požádá nějaká politická skupina nebo alespoň čtyřicet poslanců den před hlasováním, musejí poslanci hlasovat jmenovitě. V takovém případě se hlasování každého poslance jednotlivě zaznamenává, aby pak mohlo být zveřejněno v příloze zápisu, pokud ovšem nebylo zároveň požádáno o tajné hlasování.</p>
+</blockquote>
+<blockquote>
+<p>Na plenárním zasedání rozhoduje Evropský parlament nejčastěji absolutní většinou odevzdaných hlasů. K usnášeníschopnosti (k dosažení minimálního počtu poslanců, kteří musejí být přítomni, aby byl výsledek hlasování platný) stačí, aby byla v jednacím sále přítomna jedna třetina poslanců. Pokud předseda na žádost alespoň čtyřiceti poslanců prohlásí, že Parlament není usnášeníschopný, hlasování se odkládá na následující zasedání.</p>
+</blockquote>
+<blockquote>
+<p>Komise může na výsledek hlasování reagovat a informovat o svých závěrech. Na konci doby vyhrazené pro hlasování mohou poslanci, kteří si to přejí, znovu vystoupit a podat vysvětlení hlasování a předložit analýzu či zdůvodnit svůj postoj nebo postoj své skupiny.</p>
+</blockquote>
+<blockquote>
+<p><a href="http://www.europarl.europa.eu/about-parliament/cs/organisation-and-rules/how-plenary-works">http://www.europarl.europa.eu/about-parliament/cs/organisation-and-rules/how-plenary-works</a></p>
+</blockquote>
 
 
 <p class="meta meta--right meta--big">
@@ -253,7 +250,129 @@ Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěv
 </div>
 <!--[[ZPRAVY_SNOWFALL_RELATED:ARTICLES]]-->
 </div>
-<script>!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";n.r(t);n(1);console.log("tohle je ukázková funkce v moderním Javascriptu!")},function(e,t){document.addEventListener("DOMContentLoaded",function(){var e=document.getElementsByTagName("a");Array.prototype.forEach.call(e,function(e){e.hostname!==window.location.hostname&&(e.target="_blank",e.rel="noopener noreferrer")})})}]);</script>
+<script>/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./js/script.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./js/graf1.js":
+/*!*********************!*\
+  !*** ./js/graf1.js ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("Highcharts.chart('graf1', {\n  chart: {\n    type: 'column'\n  },\n  title: {\n    text: 'Češi na třetím místě'\n  },\n  subtitle: {\n    text: 'Účast europoslanců při (jmenovitých) hlasováních v Evropském parlamentu 2014–2019'\n  },\n  xAxis: {\n    categories: [\"Rakousko\", \"Malta\", \"Česká republika\", \"Belgie\", \"Portugalsko\", \"Slovensko\", \"Polsko\", \"Chorvatsko\", \"Slovinsko\", \"Nizozemsko\", \"Francie\", \"Španělsko\", \"Německo\", \"Lucembursko\", \"Irsko\", \"Švédsko\", \"Estonsko\", \"Bulharsko\", \"Itálie\", \"Dánsko\", \"Rumunsko\", \"Finsko\", \"Litva\", \"Kypr\", \"Řecko\", \"Maďarsko\", \"Lotyšsko\", \"Británie\"],\n    crosshair: true\n  },\n  yAxis: {\n    min: 50,\n    title: {\n      text: 'průměrná účast v procentech'\n    }\n  },\n  credits: {\n    text: \"Zdroj: votewatch.eu\",\n    href: \"https://www.votewatch.eu/en/term8-member-states-attendance.html#/#0/0/2014-07-01/2019-08-01\"\n  },\n  tooltip: {\n    shared: true,\n    valueSuffix: \" %\"\n  },\n  plotOptions: {},\n  legend: {\n    enabled: false\n  },\n  series: [{\n    name: 'průměrná účast',\n    data: [95.11, 94.75, {\n      y: 92.29,\n      color: \"#d52834\"\n    }, 92.17, 91.73, 91.51, 91.38, 91.37, 91.36, 90.70, 90.16, 89.61, 89.12, 89.08, 88.98, 88.35, 87.98, 87.92, 87.82, 87.26, 86.63, 85.45, 85.33, 84.14, 83.72, 83.13, 82.83, 82.17],\n    color: \"#C0C0C0\"\n  }]\n});\n\n//# sourceURL=webpack:///./js/graf1.js?");
+
+/***/ }),
+
+/***/ "./js/script.js":
+/*!**********************!*\
+  !*** ./js/script.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./targetblank */ \"./js/targetblank.js\");\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_targetblank__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graf1 */ \"./js/graf1.js\");\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_graf1__WEBPACK_IMPORTED_MODULE_1__);\n // pro otvírání odkazů v novém okně\n\n\n\n//# sourceURL=webpack:///./js/script.js?");
+
+/***/ }),
+
+/***/ "./js/targetblank.js":
+/*!***************************!*\
+  !*** ./js/targetblank.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("document.addEventListener(\"DOMContentLoaded\", function () {\n  var links = document.getElementsByTagName(\"a\");\n  Array.prototype.forEach.call(links, function (link) {\n    if (link.hostname !== window.location.hostname) {\n      link.target = \"_blank\";\n      link.rel = \"noopener noreferrer\";\n    }\n  });\n});\n\n//# sourceURL=webpack:///./js/targetblank.js?");
+
+/***/ })
+
+/******/ });</script>
 		</article>
 			<div class="wrapper">
 				<div class="row-main">
