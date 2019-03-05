@@ -10,7 +10,7 @@ Highcharts.chart('graf1', {
         text: 'Účast europoslanců při (jmenovitých) hlasováních v Evropském parlamentu 2014–2019'
     },
     xAxis: {
-        categories: ["Rakousko", "Malta", "Česká republika", "Belgie", "Portugalsko", "Slovensko", "Polsko", "Chorvatsko", "Slovinsko", "Nizozemsko", "Francie", "Španělsko", "Německo", "Lucembursko", "Irsko", "Švédsko", "Estonsko", "Bulharsko", "Itálie", "Dánsko", "Rumunsko", "Finsko", "Litva", "Kypr", "Řecko", "Maďarsko", "Lotyšsko", "Británie"],
+        categories: ["Rakousko", "Malta", "Česká republika", "Belgie", "Portugalsko", "Slovensko", "Polsko", "Chorvatsko", "Slovinsko", "Nizozemsko", "Francie", "Španělsko", "Německo", "Lucembursko", "Irsko", "Švédsko", "Estonsko", "Bulharsko", "Itálie", "Dánsko", "Rumunsko", "Finsko", "Litva", "Kypr", "Řecko", "Maďarsko", "Lotyšsko", "Spojené království"],
         crosshair: true
     },
     yAxis: {
