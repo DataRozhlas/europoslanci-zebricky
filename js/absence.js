@@ -1,12 +1,11 @@
 $(document).ready(function() {
     $('#absence').DataTable( {
-        "ajax": "js/absence.json",
+        "ajax": "https://data.irozhlas.cz/europoslanci-zebricky/js/absence.json",
         "columns": [
             { "data": "n" },
             { "data": "c" },
-            { "data": "g" },
-            { "data": "e" }
+            { "data": "p" },
+            { "data": "g" }
         ]
     } );
-} ); 
-
+} );

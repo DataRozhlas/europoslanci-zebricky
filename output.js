@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(document).ready(function () {\n  $('#absence').DataTable({\n    \"ajax\": \"js/absence.json\",\n    \"columns\": [{\n      \"data\": \"n\"\n    }, {\n      \"data\": \"c\"\n    }, {\n      \"data\": \"g\"\n    }, {\n      \"data\": \"e\"\n    }]\n  });\n});\n\n//# sourceURL=webpack:///./js/absence.js?");
+eval("$(document).ready(function () {\n  $('#absence').DataTable({\n    \"ajax\": \"https://data.irozhlas.cz/europoslanci-zebricky/js/absence.json\",\n    \"columns\": [{\n      \"data\": \"n\"\n    }, {\n      \"data\": \"c\"\n    }, {\n      \"data\": \"p\"\n    }, {\n      \"data\": \"g\"\n    }]\n  });\n});\n\n//# sourceURL=webpack:///./js/absence.js?");
 
 /***/ }),
 

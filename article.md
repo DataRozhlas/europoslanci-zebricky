@@ -2,7 +2,7 @@ title: "Aktivita europoslanců"
 perex: ""
 published: "8. března 2019"
 styles: ["https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"]
-libraries: [highcharts, "https://unpkg.com/jquery@3.3.1/dist/jquery.min.js", "https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"] #jquery, d3, highcharts, datatables
+libraries: [highcharts, "https://code.jquery.com/jquery-3.3.1.js", "https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"] #jquery, d3, highcharts, datatables
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
 
