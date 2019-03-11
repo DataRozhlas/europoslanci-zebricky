@@ -12,10 +12,10 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <table id="absence" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Extn.</th>
+                <th>pořadí</th>
+                <th>jméno</th>
+                <th>stát</th>
+                <th>účast na plenárním zasedání</th>
             </tr>
         </thead>
 </table>

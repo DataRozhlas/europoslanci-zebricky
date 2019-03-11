@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(document).ready(function () {\n  $('#absence').DataTable({\n    \"ajax\": \"https://data.irozhlas.cz/europoslanci-zebricky/js/absence.json\",\n    \"columns\": [{\n      \"data\": \"n\"\n    }, {\n      \"data\": \"c\"\n    }, {\n      \"data\": \"p\"\n    }, {\n      \"data\": \"g\"\n    }]\n  });\n});\n\n//# sourceURL=webpack:///./js/absence.js?");
+eval("$(document).ready(function () {\n  $('#absence').DataTable({\n    \"ajax\": \"https://data.irozhlas.cz/europoslanci-zebricky/js/absence.json\",\n    \"columnDefs\": [{\n      \"targets\": 0,\n      \"data\": \"i\",\n      \"render\": function render(data, type, row, meta) {\n        return meta.row + 1 + '. <img src=\"https://data.irozhlas.cz/europoslanci-zebricky/foto/' + data + '.jpg\" class=\"portret\">';\n      }\n    }, {\n      \"targets\": 1,\n      \"data\": \"n\",\n      \"render\": function render(data, type, row, meta) {\n        return '<a href=\"http://www.europarl.europa.eu/meps/cs/' + row.i + '\" target=\"_blank\">' + data + '</a>';\n      }\n    }, {\n      \"targets\": 2,\n      \"data\": \"c\"\n    }, {\n      \"targets\": 3,\n      \"data\": \"e\",\n      \"render\": function render(data, type, row, meta) {\n        return data + ' %';\n      }\n    }],\n    \"language\": {\n      \"url\": \"https://cdn.datatables.net/plug-ins/1.10.19/i18n/Czech.json\"\n    }\n  });\n});\n\n//# sourceURL=webpack:///./js/absence.js?");
 
 /***/ }),
 
