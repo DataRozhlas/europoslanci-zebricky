@@ -1,10 +1,27 @@
 title: "Aktivita europoslanců"
 perex: ""
 published: "8. března 2019"
-styles: []
-libraries: [highcharts] #jquery, d3, highcharts, datatables
+styles: ["https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"]
+libraries: [highcharts, "https://unpkg.com/jquery@3.3.1/dist/jquery.min.js", "https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"] #jquery, d3, highcharts, datatables
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
+
+## (Ne)přítomnost na plenárních zasedáních
+
+<wide>
+<table id="absence" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+            </tr>
+        </thead>
+</table>
+</wide>
+
+## Účast při jmenovitých hlasováních
 
 <wide><div id="graf1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 </wide>

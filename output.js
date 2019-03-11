@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./js/absence.js":
+/*!***********************!*\
+  !*** ./js/absence.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(document).ready(function () {\n  $('#absence').DataTable({\n    \"ajax\": \"js/absence.json\",\n    \"columns\": [{\n      \"data\": \"n\"\n    }, {\n      \"data\": \"c\"\n    }, {\n      \"data\": \"g\"\n    }, {\n      \"data\": \"e\"\n    }]\n  });\n});\n\n//# sourceURL=webpack:///./js/absence.js?");
+
+/***/ }),
+
 /***/ "./js/graf1.js":
 /*!*********************!*\
   !*** ./js/graf1.js ***!
@@ -105,7 +116,7 @@ eval("Highcharts.chart('graf1', {\n  chart: {\n    type: 'column'\n  },\n  title
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./targetblank */ \"./js/targetblank.js\");\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_targetblank__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graf1 */ \"./js/graf1.js\");\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_graf1__WEBPACK_IMPORTED_MODULE_1__);\n // pro otvírání odkazů v novém okně\n\n\n\n//# sourceURL=webpack:///./js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./targetblank */ \"./js/targetblank.js\");\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_targetblank__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graf1 */ \"./js/graf1.js\");\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_graf1__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _absence__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./absence */ \"./js/absence.js\");\n/* harmony import */ var _absence__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_absence__WEBPACK_IMPORTED_MODULE_2__);\n // pro otvírání odkazů v novém okně\n\n\n\n\n//# sourceURL=webpack:///./js/script.js?");
 
 /***/ }),
 

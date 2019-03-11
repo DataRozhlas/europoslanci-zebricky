@@ -1,8 +1,10 @@
 <div class="b-data__content" id="content">
 <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
 <script type="text/javascript">document.getElementsByTagName('article')[0].classList.add('b-data--no-img');</script>
-<style>article li{background:0 0!important;margin:0!important;padding:0!important}article ol,article ul{list-style:initial!important;font-size:medium!important;line-height:1.5!important}article hr{max-width:none!important}</style>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"><style>article li{background:0 0!important;margin:0!important;padding:0!important}article ol,article ul{list-style:initial!important;font-size:medium!important;line-height:1.5!important}article hr{max-width:none!important}</style>
 <div class="row-main row-main--article">
 <h1 class="b-data__title b-data__title--sm">
 Aktivita europoslanců
@@ -16,6 +18,21 @@ Aktivita europoslanců
 <div class="row-main row-main--narrow">
 
 
+<h2 id="-ne-p-tomnost-na-plen-rn-ch-zased-n-ch">(Ne)přítomnost na plenárních zasedáních</h2>
+</div><div class="row-main row-main--article">
+<table id="absence" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+            </tr>
+        </thead>
+</table>
+</div><div class="row-main row-main--narrow">
+
+<h2 id="-ast-p-i-jmenovit-ch-hlasov-n-ch">Účast při jmenovitých hlasováních</h2>
 </div><div class="row-main row-main--article"><div id="graf1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 </div><div class="row-main row-main--narrow">
 
@@ -133,6 +150,17 @@ Aktivita europoslanců
 /************************************************************************/
 /******/ ({
 
+/***/ "./js/absence.js":
+/*!***********************!*\
+  !*** ./js/absence.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("$(document).ready(function () {\n  $('#absence').DataTable({\n    \"ajax\": \"js/absence.json\",\n    \"columns\": [{\n      \"data\": \"n\"\n    }, {\n      \"data\": \"c\"\n    }, {\n      \"data\": \"g\"\n    }, {\n      \"data\": \"e\"\n    }]\n  });\n});\n\n//# sourceURL=webpack:///./js/absence.js?");
+
+/***/ }),
+
 /***/ "./js/graf1.js":
 /*!*********************!*\
   !*** ./js/graf1.js ***!
@@ -152,7 +180,7 @@ eval("Highcharts.chart('graf1', {\n  chart: {\n    type: 'column'\n  },\n  title
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./targetblank */ \"./js/targetblank.js\");\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_targetblank__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graf1 */ \"./js/graf1.js\");\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_graf1__WEBPACK_IMPORTED_MODULE_1__);\n // pro otvírání odkazů v novém okně\n\n\n\n//# sourceURL=webpack:///./js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./targetblank */ \"./js/targetblank.js\");\n/* harmony import */ var _targetblank__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_targetblank__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graf1 */ \"./js/graf1.js\");\n/* harmony import */ var _graf1__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_graf1__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _absence__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./absence */ \"./js/absence.js\");\n/* harmony import */ var _absence__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_absence__WEBPACK_IMPORTED_MODULE_2__);\n // pro otvírání odkazů v novém okně\n\n\n\n\n//# sourceURL=webpack:///./js/script.js?");
 
 /***/ }),
 
