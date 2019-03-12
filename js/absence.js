@@ -12,7 +12,7 @@ let absence = $('#absence').DataTable( {
             { "targets" : 1,
                 "data": "n",
                 "render": function ( data, type, row, meta ) {
-                    return '<a href="http://www.europarl.europa.eu/meps/cs/' + row.i + '" target="_blank">' + data + '</a>';
+                    return '<a href="http://www.mepranking.eu/8/mep.php?id=' + row.i + '#mep" target="_blank">' + data + '</a>';
                 },
                 "responsivePriority" : 1
             },
@@ -42,6 +42,7 @@ let absence = $('#absence').DataTable( {
         ],
         "order": [[ 3, "desc" ]],
         "responsive" : true,
+        "pageLength": 25,
         "language" : {
             "url" : "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Czech.json"
         }

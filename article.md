@@ -20,7 +20,29 @@ options: [noheader, nopic] #wide, noheader (, nopic)
                 <th>pořadí</th>
                 <th>jméno</th>
                 <th>stát</th>
-                <th>účast na plenárním zasedání</th>
+                <th>účast na zasedání</th>
+                <th>podrobnosti</th>
+                <th>frakce</th>
+                <th>strana</th>
+            </tr>
+        </thead>
+</table>
+</wide>
+<br>
+<br>
+<wide>
+<h2>(Ne)účast při jmenovitých zasedáních</h2>
+<br>
+<button id="hlasovani-cesi">Jen Češi</button> <button id="hlasovani-vsichni">Všichni</button>
+<br>
+<br>
+<table id="hlasovani" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>pořadí</th>
+                <th>jméno</th>
+                <th>stát</th>
+                <th>účast při hlasování</th>
                 <th>podrobnosti</th>
                 <th>frakce</th>
                 <th>strana</th>
