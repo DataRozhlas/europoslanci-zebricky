@@ -1,14 +1,19 @@
 title: "Aktivita europoslanců"
 perex: ""
 published: "8. března 2019"
-styles: ["https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"]
-libraries: [highcharts, "https://code.jquery.com/jquery-3.3.1.js", "https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"] #jquery, d3, highcharts, datatables
+styles: ["https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/r-2.2.2/datatables.min.css"]
+libraries: [highcharts, "https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/r-2.2.2/datatables.min.js"] #jquery, d3, highcharts, datatables
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
 
-## (Ne)přítomnost na plenárních zasedáních
+
 
 <wide>
+<h2>(Ne)přítomnost na plenárních zasedáních</h2>
+<br>
+<button id="absence-cesi">Jen Češi</button> <button id="absence-vsichni">Všichni</button>
+<br>
+<br>
 <table id="absence" class="display" style="width:100%">
         <thead>
             <tr>
@@ -16,10 +21,16 @@ options: [noheader, nopic] #wide, noheader (, nopic)
                 <th>jméno</th>
                 <th>stát</th>
                 <th>účast na plenárním zasedání</th>
+                <th>podrobnosti</th>
+                <th>frakce</th>
+                <th>strana</th>
             </tr>
         </thead>
 </table>
 </wide>
+
+<br>
+<br>
 
 ## Účast při jmenovitých hlasováních
 
