@@ -31,7 +31,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <br>
 <br>
 <wide>
-<h2>(Ne)účast při jmenovitých zasedáních</h2>
+<h2>(Ne)účast při jmenovitých hlasováních</h2>
 <br>
 <button id="hlasovani-cesi">Jen Češi</button> <button id="hlasovani-vsichni">Všichni</button>
 <br>
