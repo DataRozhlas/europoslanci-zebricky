@@ -43,7 +43,7 @@ let hlasovani = $('#hlasovani').DataTable( {
             ],
             "order": [[ 3, "desc" ]],
             "responsive" : true,
-            "pageLength": 25,
+            "pageLength": 5,
             "language" : {
                 "url" : "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Czech.json"
             }
