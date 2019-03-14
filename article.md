@@ -54,9 +54,11 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <br>
 <br>
 
-## Účast při jmenovitých hlasováních
 
-<wide><div id="graf1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<wide>
+<h2>Účast při jmenovitých hlasováních</h2>
+<div id="graf1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 </wide>
 
 >Hlasování probíhá obvykle kolem poledne a ve velmi rychlém sledu: poslanci mnohdy hlasují o stovkách pozměňovacích návrhů.
