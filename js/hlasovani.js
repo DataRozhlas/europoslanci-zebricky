@@ -6,7 +6,7 @@ let hlasovani = $('#hlasovani').DataTable( {
                 { "targets" : 0,
                   "data": "i",
                   "render": function ( data, type, row, meta ) {
-                    return row.r + '. <img src="https://data.irozhlas.cz/europoslanci-zebricky/foto/' + data + '.jpg" class="portret">';
+                    return row.r + '. <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://data.irozhlas.cz/europoslanci-zebricky/foto/' + data + '.jpg" class="portret">';
                 },
                 "responsivePriority" : 2
                 },
@@ -48,7 +48,10 @@ let hlasovani = $('#hlasovani').DataTable( {
             "language" : {
                 "url" : "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Czech.json"
             }, 
-            "deferLoading": [ 21, 750 ]
+            "deferLoading": [ 21, 750 ],
+            "drawCallback": function( settings ) {
+                $("#hlasovani img:visible").unveil();
+            }
 });
 
 $(document).ready(function() {
