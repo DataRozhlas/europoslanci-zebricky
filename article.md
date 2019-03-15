@@ -6,8 +6,27 @@ libraries: [highcharts, "https://cdn.datatables.net/v/dt/jq-3.3.1/dt-1.10.18/r-2
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
 
-
-
+<wide>
+<h2>Skóre celkové aktivity</h2>
+<br>
+<button id="aktivita-cesi">Jen Češi</button> <button id="aktivita-vsichni">Všichni</button>
+<br>
+<br>
+<table id="aktivita" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>pořadí v Evropském parlamentu</th>
+                <th>jméno</th>
+                <th>stát</th>
+                <th>skóre celkové aktivity</th>
+                <th>frakce</th>
+                <th>strana</th>
+            </tr>
+        </thead>
+</table>
+</wide>
+<br>
+<br>
 <wide>
 <h2>(Ne)přítomnost na plenárních zasedáních</h2>
 <br>
@@ -17,7 +36,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <table id="absence" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>pořadí</th>
+                <th>pořadí v Evropském parlamentu</th>
                 <th>jméno</th>
                 <th>stát</th>
                 <th>účast na zasedání</th>
@@ -39,7 +58,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <table id="hlasovani" class="display" style="width:100%">
         <thead>
             <tr>
-                <th>pořadí</th>
+                <th>pořadí v Evropském parlamentu</th>
                 <th>jméno</th>
                 <th>stát</th>
                 <th>účast při hlasování</th>
