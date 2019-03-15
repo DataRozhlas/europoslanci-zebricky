@@ -40,7 +40,8 @@ let aktivita = $('#aktivita').DataTable( {
     "lengthMenu": [ [5, 10, 25, 50, 100, -1], [5, 10, 25, 50, 100, "všechny"] ],
     "language" : {
         "url" : "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Czech.json"
-    }
+    },
+    "deferLoading": [ 21, 750 ]
 });
 
 $(document).ready(function() {
