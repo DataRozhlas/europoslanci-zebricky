@@ -5,3 +5,7 @@
     height: 60px;
     border-radius: 50%;
 }
+
+.vybrany {
+    border-style: inset;
+}

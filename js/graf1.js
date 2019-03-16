@@ -4,7 +4,7 @@ Highcharts.chart('graf1', {
         type: 'column'
     },
     title: {
-        text: 'Češi na třetím místě'
+        text: 'Češi na pátém místě'
     },
     subtitle: {
         text: 'Účast europoslanců při (jmenovitých) hlasováních v Evropském parlamentu 2014–2019'

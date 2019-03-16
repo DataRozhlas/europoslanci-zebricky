@@ -52,11 +52,15 @@ $(document).ready(function() {
 aktivita.search("Česko").draw();
 
 $("#aktivita-cesi").click(function() {
-aktivita.search("Česko").draw();
+    aktivita.search("Česko").draw();
+    $(this).addClass("vybrany");
+    $("#aktivita-vsichni").removeClass("vybrany")
 });
 
 $("#aktivita-vsichni").click(function() {
-aktivita.search("").draw();
+    aktivita.search("").draw();
+    $(this).addClass("vybrany");
+    $("#aktivita-cesi").removeClass("vybrany")
 });    
 
 });

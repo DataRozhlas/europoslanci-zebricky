@@ -60,10 +60,14 @@ $(document).ready(function() {
     
     $("#hlasovani-cesi").click(function() {
         hlasovani.search("Česko").draw();
+        $(this).addClass("vybrany");
+        $("#hlasovani-vsichni").removeClass("vybrany")
     });
     
     $("#hlasovani-vsichni").click(function() {
         hlasovani.search("").draw();
+        $(this).addClass("vybrany");
+        $("#hlasovani-cesi").removeClass("vybrany")
     });    
 
 });

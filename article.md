@@ -9,7 +9,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <wide>
 <h2>Skóre celkové aktivity</h2>
 <br>
-<button id="aktivita-cesi">Jen Češi</button> <button id="aktivita-vsichni">Všichni</button>
+<button id="aktivita-cesi" class="vybrany">Jen Češi</button> <button id="aktivita-vsichni">Všichni</button>
 <br>
 <br>
 <table id="aktivita" class="display" style="width:100%">
@@ -30,7 +30,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <wide>
 <h2>(Ne)přítomnost na plenárních zasedáních</h2>
 <br>
-<button id="absence-cesi">Jen Češi</button> <button id="absence-vsichni">Všichni</button>
+<button id="absence-cesi" class="vybrany">Jen Češi</button> <button id="absence-vsichni">Všichni</button>
 <br>
 <br>
 <table id="absence" class="display" style="width:100%">
@@ -52,7 +52,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <wide>
 <h2>(Ne)účast při jmenovitých hlasováních</h2>
 <br>
-<button id="hlasovani-cesi">Jen Češi</button> <button id="hlasovani-vsichni">Všichni</button>
+<button id="hlasovani-cesi" class="vybrany">Jen Češi</button> <button id="hlasovani-vsichni">Všichni</button>
 <br>
 <br>
 <table id="hlasovani" class="display" style="width:100%">
