@@ -39,6 +39,11 @@ Body navíc tak právě Teličkovi přináší post místopředsedy europarlamen
 
 Autoři projektu ve své [metodice](http://www.mepsoftware.eu/blog/?p=355) přiznávají, že na podobnou sémantickou analýzu nemají kapacitu. Nicméně Telička obsadil ve srovnání s českými kolegy první místo právě i v počtu podaných pozměňovacích návrhů, MEP Ranking jich eviduje hned 2885.
 
+<div class="b-inline"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
+<h3>Hlasování v europarlamentu</h3>
+<p>Hlasování probíhá obvykle kolem poledne a ve velmi rychlém sledu: poslanci mnohdy hlasují o stovkách pozměňovacích návrhů. Nejčastěji poslanci hlasují zvednutím ruky, přičemž úkolem předsedy zasedání je konstatovat, zda většina byla pro, nebo proti. V případě nejistoty požádá předseda o elektronické hlasování, které poskytne přesnější výsledek. Pokud o to požádá nějaká politická skupina nebo alespoň čtyřicet poslanců den před hlasováním, musejí poslanci hlasovat jmenovitě. V takovém případě se hlasování každého poslance jednotlivě zaznamenává, aby pak mohlo být zveřejněno v příloze zápisu, pokud ovšem nebylo zároveň požádáno o tajné hlasování. Tajné hlasování má přednost před hlasováním jmenovitým.</p><p>Zdroj: <a href="http://www.europarl.europa.eu/about-parliament/cs/organisation-and-rules/how-plenary-works">Evropský parlament</a></p>
+</div></div></div></div>
+
 Zpátky ale k celkovému hodnocení: druhé místo v žebříčku obsadila Dita Charanzová (za ANO), která je zároveň lídryní hnutí pro letošní volby. Sama říká, že se tak zřejmě zúročilo to, že se Evropskou unií zabývá už dvacet let. „Pracovala jsem v Bruselu ve službách české diplomacie, mám tam řadu kontaktů, znám prostředí a toho využívám při své práci. Znamená to taky, že jsem měla na starosti jako zpravodaj konkrétní legislativu, s čímž je samozřejmě spojeno zcela jiné kvantum práce,“ napsala v SMS. 
 
 Třetí skončila komunistka Kateřina Konečná, a to i přesto, že má oproti jiným českým europoslancům vysokou absenci. Během mandátu totiž čerpala mateřskou dovolenou. Podílela se ovšem na množství pozměňovacích návrhů a stanoviscích výborů. „Tam si myslím, že se dělá největší část legislativní práce. Tady můžete republice spoustu věcí vyjednat,“ řekla. 
@@ -111,15 +116,8 @@ Pospíšil zároveň figuruje na spodních příčkách také v případě jmeno
 
 A jak si stojí Česko celkově ve srovnání s dalšími členskými zeměmi? Konkrétně v účasti na jmenovitých hlasováních drží páté místo, předběhlo ji tak už jen Rakousko, Malta, Slovensko a Portugalsko. 
 
-<br>
-
-Volby do Evropského parlamentu se letos konají 24. a 25. května. Europoslance tak čeká ještě poslední dubnová schůze, minulý týden zároveň proběhlo březnové zasedání. Uvedené údaje jsou platná k letošnímu únoru, konečné statistiky se tak mohou finálně ještě změnit.
-
 <wide>
 <div id="graf1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 </wide>
 
-<div class="b-inline"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
-<h3>Hlasování v europarlamentu</h3>
-<p>Hlasování probíhá obvykle kolem poledne a ve velmi rychlém sledu: poslanci mnohdy hlasují o stovkách pozměňovacích návrhů. Nejčastěji poslanci hlasují zvednutím ruky, přičemž úkolem předsedy zasedání je konstatovat, zda většina byla pro, nebo proti. V případě nejistoty požádá předseda o elektronické hlasování, které poskytne přesnější výsledek. Pokud o to požádá nějaká politická skupina nebo alespoň čtyřicet poslanců den před hlasováním, musejí poslanci hlasovat jmenovitě. V takovém případě se hlasování každého poslance jednotlivě zaznamenává, aby pak mohlo být zveřejněno v příloze zápisu, pokud ovšem nebylo zároveň požádáno o tajné hlasování. Tajné hlasování má přednost před hlasováním jmenovitým.</p>
-</div></div></div></div>
+Volby do Evropského parlamentu se letos konají 24. a 25. května. Europoslance tak čeká ještě poslední dubnová schůze, minulý týden zároveň proběhlo březnové zasedání. Uvedené údaje jsou platná k letošnímu únoru, konečné statistiky se tak mohou finálně ještě změnit.
