@@ -37,7 +37,7 @@ Body navíc tak právě Teličkovi přináší post místopředsedy europarlamen
 
 „Osmdesát procent pozměňovacích návrhů vypadá tak, že změníte slovo ‚ano‘ za slovo ‚ne‘, když to přeženu, nebo jde o návrhy převzaté od lobbistů. Kdežto všechny moje pozměňovací návrhy vychází z jednání u kulatých stolů, názorových střetů, nastuduji si to a připravuji si argumenty, a to už nikde ve statistice nevyčtete,“ popsal Telička. 
 
-Autoři projektu ve své [metodice](http://www.mepsoftware.eu/blog/?p=355) přiznávají, že na podobnou sémantickou analýzu nemají kapacitu. Nicméně Telička obsadil ve srovnání s českými kolegy první místo právě i v počtu podaných pozměňovacích návrhů, MEP Ranking jich eviduje hned 2885.
+Autoři projektu ve své [metodice](http://www.mepsoftware.eu/blog/?p=355) přiznávají, že na podobnou sémantickou analýzu nemají kapacitu. Nicméně Telička obsadil ve srovnání s českými kolegy první místo právě i v počtu podaných pozměňovacích návrhů, MEP Ranking jich eviduje hned 2885. V množství zpráv pak bodoval mezi svými kolegy lidovecký europoslanec Tomáš Zdechovský.  
 
 <div class="b-inline"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
 <h3>Hlasování v europarlamentu</h3>
